@@ -19,10 +19,9 @@ public class Libro{
     //Definizione metodi 
     //Definire metodo toString()
     public String toString(){
-        return String.format("titolo: %s, \nautore: %s, \nprezzo: %.2f, \nnumero di pagine: %d, \neditore: %s," titolo , autore , prezzo , npag , editore) + collocazione + \n 
+        return String.format("titolo: %s, \nautore: %s, \nprezzo: %.2f, \nnumero di pagine: %d, \neditore: %s,", titolo , autore , prezzo , npag , editore) + collocazione + "\n"; 
     }
     public void setCollocazione(Scaffale s){
         this.collocazione = s;
     }
-    public void setCollocazione
-    }
+}

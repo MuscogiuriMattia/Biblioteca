@@ -7,7 +7,7 @@ class Main{
         Libro l2 = new Libro("Cronache di Narnia" , "c.s Lewis" , 19.95f , 1168 , "Mondadodri");
         Libro l3 = new Libro("Il signore degli anelli" , "j.r.r Tolkien" , 26.60f , 496 , "Mondadori");
         Libro l4 = new Libro("Percy Jackson" , "Rick Riordan" ,  12.00f , 343 ,"Mondadori");
-        Libro l5 = new
+        Libro l5 = new Libro("Il trono di spade" , "George r.r" , 20.50f , 568 ,"Mondadori");
         s1.aggiungi(l1);
         s1.aggiungi(l2);
         s1.aggiungi(l3);
@@ -16,9 +16,9 @@ class Main{
         //Visualizzare il contenuto dello scaffale
         s1.elencaLibri();
         
-        s1.elencaLibri(
+        s1.elencaLibri("j.k Rowling");
         
-        s1.elencaLibri(
+        s1.elencaLibri(12.00f , 26.60f);
         
     }
 }
